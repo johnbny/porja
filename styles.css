@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', sans-serif;
+}
+
+.logo {
+    display:flex;
+    flex-direction: column;
+    font-size: 1.35rem;
+    font-weight: 475;
+}
+.logo-icon {
+    height: 5rem;
+}
+.porja-logo {
+display: flex;
+align-items: center;
+}
+
+.navigation {
+    height: 6rem;
+    width: 100%;
+    border-bottom: 0.95px solid #342f2f;
+}
+
+.navigation nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 3rem;
+}
+
+
+
+.menu-button {
+    padding: 0.85rem 1.7rem;
+    font-size: 1.4rem;
+    border-radius: 1px;
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+    margin-left: 1rem;
+}
+
+.menu-button:hover {
+    background-color: rgb(227, 227, 227);
+    color: black;
+    transition: 0.3s ease-in;
+
+}
+
+.intro {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 35rem;
+    overflow: visible;
+    position: relative;
+}
+
+.intro-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.intro-text h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+    width: 95%;
+    margin: 0 auto;
+    word-spacing: 0.3rem;
+}
+
+.intro-text p {
+    font-size: 1.2rem;
+    font-weight: 250;
+    margin-bottom: 2rem;
+    width: 95%;
+    margin: 0 auto;
+    word-spacing: 0.3rem;
+}
+
+.intro-button {
+    padding: 0.85rem 2.1rem;
+    font-size: 1.4rem;
+    border-radius: 1px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+    margin-left: 2.5%;
+    margin-top: 1.5rem;
+    border: 1px solid black;
+}
+
+.intro-button:hover {
+    background-color: transparent;
+    color: black;
+    transition: 0.3s ease-in;
+}
+
+.intro-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-image img {
+    width: 78%;
+    height: 150%;
+    margin-top: 20.5rem;
+}
+
+.skills {
+    height: 50rem;
+    background-color: #f3f2f2;
+    padding-top: 3rem;
+}
+
+.intro-image img{
+  filter: grayscale(100%);
+}
+
+.intro-image img:hover {
+  filter: grayscale(0%);
+  transition: 0.2s ease-in;
+}
+
+.accordion {
+    width: 50%;
+    margin-left: 2.5%;
+    margin-top: 2rem;
+}
+.accordion details {
+  border-bottom: 1px solid #ccc;
+
+}
+
+.accordion-title {
+      border-top: 1px solid #ccc;
+
+}
+
+/* Question */
+.accordion summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 24px 0;
+  list-style: none;
+}
+
+/* Remove default arrow */
+.accordion summary::-webkit-details-marker {
+  display: none;
+}
+
+
+
+.accordion-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.5s ease;
+}
+
+.accordion-content > div {
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(-8px);
+  transition:
+    opacity 0.35s ease,
+    transform 0.4s ease;
+}
+
+.accordion details[open] .accordion-content {
+  grid-template-rows: 1fr;
+}
+
+.accordion details[open] .accordion-content > div {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.accordion-content p {
+  margin: 0;
+  padding: 0 0 24px;
+}
+
+.skills-ending {
+    padding-top: 10rem;
+    width: 55%;
+    text-align: center;
+display: flex;
+margin: 0 auto;
+font-size: 1.9rem;
+flex-direction: column;
+}
+.skills-ending a {
+    margin: 0 auto;
+}
+
+.skills-ending p {
+    padding-bottom: 2rem;
+}
+
+.skills-button {
+    padding: 0.85rem 2.1rem;
+    font-size: 1.4rem;
+    border-radius: 1px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+    border: 1px solid black;
+}
+
+.skills-button:hover {
+    background-color: transparent;
+    color: black;
+    transition: 0.3s ease-in;
+}

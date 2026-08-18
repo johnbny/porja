@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 450; 
 }
 
 .logo {
@@ -74,10 +77,10 @@ align-items: center;
 .intro-text h2 {
     font-size: 3rem;
     margin-bottom: 1rem;
-    font-weight: 300;
+    font-weight: 350;
     width: 95%;
     margin: 0 auto;
-    word-spacing: 0.3rem;
+    word-spacing: 0.11rem;
 }
 
 .intro-text p {
@@ -100,6 +103,7 @@ align-items: center;
     margin-left: 2.5%;
     margin-top: 1.5rem;
     border: 1px solid black;
+    font-weight: 333;
 }
 
 .intro-button:hover {
@@ -212,6 +216,7 @@ flex-direction: column;
 
 .skills-ending p {
     padding-bottom: 2rem;
+    font-weight: 380;
 }
 
 .skills-button {
@@ -222,6 +227,7 @@ flex-direction: column;
     text-decoration: none;
     color: white;
     width: fit-content;
+    font-weight: 333;
     border: 1px solid black;
 }
 

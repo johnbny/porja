@@ -309,44 +309,43 @@ input[type="checkbox"] {
   font-size: 1.5rem;
 }
 
-/* Hamburger */
 .hamburger {
   display: none;
   position: relative;
-  top: 0;
-  right: -0.75rem;
   width: 30px;
-  height: 24px;
+  height: 30px;
   cursor: pointer;
   z-index: 1001;
 }
 
 .hamburger span {
-  display: block;
   position: absolute;
   left: 0;
+  top: 14px;
+  display: block;
   width: 30px;
   height: 2px;
   background: black;
-  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform-origin: center;
+  transition: transform 0.3s ease, opacity 0.2s ease;
 }
 
-/* Position the 3 bars */ animation into X */
+/* Hamburger bars */
 .hamburger span:nth-child(1) {
-  top: 3px;
+  transform: translateY(-7px);
 }
 
 .hamburger span:nth-child(2) {
-  top: 11px;
+  transform: translateY(0);
 }
 
 .hamburger span:nth-child(3) {
-  top: 19px;
+  transform: translateY(7px);
 }
 
-/* Animate into X */
+/* Perfect X */
 #menu-toggle:checked + .hamburger span:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
+  transform: rotate(45deg);
 }
 
 #menu-toggle:checked + .hamburger span:nth-child(2) {
@@ -354,7 +353,7 @@ input[type="checkbox"] {
 }
 
 #menu-toggle:checked + .hamburger span:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 

@@ -72,6 +72,7 @@ align-items: center;
     flex-direction: column;
     justify-content: center;
     padding: 1rem;
+    z-index: 999;
 }
 
 .intro-text h2 {
@@ -383,6 +384,19 @@ input[type="checkbox"] {
         width: 100%;
     }
 
+    .intro-button {
+        z-index: 1000;
+    }
+
+    a {
+        z-index: 1000;
+    }
+
+    #contact a {
+        z-index: 1000;
+    }
+
+    
     .intro-text h2 {
         margin-top: 1.2rem;
         text-align:left;
@@ -408,6 +422,7 @@ input[type="checkbox"] {
     max-width: 500px;
     max-height: 650px;
     margin: -7rem auto 0;
+    z-index: 950;
 }
 
 

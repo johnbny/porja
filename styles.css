@@ -258,6 +258,11 @@ flex-direction: column;
   display: none;
 }
 
+input[type="checkbox"] {
+  display: none;
+}
+
+
 /* Hamburger */
 .hamburger {
   display: none;

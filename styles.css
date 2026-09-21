@@ -595,7 +595,7 @@ input[type="checkbox"] {
         flex-direction: column;
         display: block;
         margin-top: 5rem;
-        border-bottom: 1.1px solid black;
+        border-bottom: 1px solid rgb(56, 56, 56);
     }
 
     .ps1-text {
@@ -625,6 +625,13 @@ input[type="checkbox"] {
         width: 100%;
         margin-top: -9rem;
     }
+
+    .ps1-showcase img{
+        filter: grayscale(0%);}
+
+    .ps2-showcase img{
+        filter: grayscale(0%);
+}
 
 
 

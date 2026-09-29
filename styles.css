@@ -592,7 +592,10 @@ input[type="checkbox"] {
     letter-spacing: 0.09rem;
 }
 
-
+.logo p{
+    font-weight: 275;
+    font-family: 'Outfit', sans-serif;
+}
 
 .co-owner {
     margin-left: 5rem;
@@ -715,6 +718,9 @@ input[type="checkbox"] {
     margin-left: .35rem;
  }
 
+ .porja-logo {
+    padding-left: 1.45rem;
+ }
 
 
     .intro-image img {

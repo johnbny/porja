@@ -613,6 +613,7 @@ input[type="checkbox"] {
     display: flex;
     justify-content: space-between;
     padding-top: 2rem;
+    padding-bottom: .5rem;
 }
 
 .footer-container {
@@ -704,6 +705,15 @@ input[type="checkbox"] {
     z-index: 950;
 }
 
+
+ .contact-photos img{
+    aspect-ratio: 1 / 1;
+    padding: .43rem;
+ }
+ 
+ .contact-photos p{
+    margin-left: .35rem;
+ }
 
 
 

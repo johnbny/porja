@@ -606,6 +606,47 @@ input[type="checkbox"] {
     display: flex;
 }
 
+.footer {
+    margin-top : 5rem;
+    background-color: #fbfbfb;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.footer-container {
+    width: 50%;
+}
+
+.footer-container h2 {
+    font-size: 2.7rem;
+}
+
+.footer-container p{ 
+    font-size: 2rem;
+    font-weight: 225;
+}
+
+.footer-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.footer-button {
+    text-decoration: none;
+    color: black;
+    font-size: 1.75rem;
+    margin: 0 auto;
+    margin-top: 1.15rem;
+
+}
+
+.footer-button p {
+    padding: 0.20rem 0;
+    font-weight: 325;
+}
 
 
 
@@ -741,9 +782,10 @@ input[type="checkbox"] {
     }
 
     .contact-container p {
-        width: 77%;
+        width: 79%;
         margin: 0 auto;
-        padding-top: 1rem;
+        padding-top: 1.27rem;
+        font-size: 1.45rem;
     }
 
     .center-photos {
@@ -772,8 +814,10 @@ input[type="checkbox"] {
         filter: grayscale(0%);}
 
     .ps2-showcase img{
-        filter: grayscale(0%);
-
+        filter: grayscale(0%);}
+    .contact-photos {
+        width: 87%;
+    }
 
 }
 

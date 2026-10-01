@@ -624,7 +624,7 @@ input[type="checkbox"] {
     display: flex;
     justify-content: space-between;
     padding-top: 2rem;
-    padding-bottom: .5rem;
+    padding-bottom: 1rem;
 }
 
 .footer-container {

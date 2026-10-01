@@ -291,7 +291,7 @@ flex-direction: column;
 
 .ps1-text p {
     margin-bottom: 1.2rem;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     font-weight: 300;
 }
 
@@ -303,6 +303,11 @@ flex-direction: column;
     margin-top: 2rem;
 }
 
+.desc{
+ font-size: 1.5rem;}
+
+
+
 .bold {
 font-weight: 550;
 margin-right: 0.5rem;
@@ -310,7 +315,7 @@ margin-right: 0.5rem;
 
 .ps2-text p {
     margin-bottom: 1.2rem;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     font-weight: 300;
 }
 
@@ -641,15 +646,19 @@ input[type="checkbox"] {
 .footer-button {
     text-decoration: none;
     color: black;
-    font-size: 1.75rem;
     margin: 0 auto;
     margin-top: 1.15rem;
 
 }
 
+.footer-container h2 {
+    font-size: 2.3rem;
+}
+
 .footer-button p {
     padding: 0.20rem 0;
     font-weight: 325;
+    font-size: 1.66rem;
 }
 
 
@@ -859,16 +868,19 @@ input[type="checkbox"] {
 
     .footer-button {
         margin-left: 0 ;
-        font-size: 1.5rem;
       
     }
 
+    .footer-button p {
+        font-size: 1.485rem;
+    }
+
     .footer-container h2{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .footer-container p  {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
 }

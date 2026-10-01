@@ -543,7 +543,7 @@ input[type="checkbox"] {
 
 .contact-description {
     width: 60%;
-    font-size: 1.25rem;
+    font-size: 1.45rem;
     font-weight: 300;
     line-height: 1.5rem;
     margin-top: 1rem;
@@ -663,6 +663,152 @@ input[type="checkbox"] {
     font-weight: 325;
     font-size: 1.66rem;
 }
+
+.contact-form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-section {
+    width: 50%;
+}
+.form-section {
+    width: 50%;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.text-section h2{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    font-weight: 275;
+    padding-top: 6rem;
+}
+
+//FORM STYLING
+form {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.send {
+    display: block;
+}
+/* Inputs and message */
+
+form input,
+form textarea {
+    width: 75%;
+    box-sizing: border-box;
+
+    padding: 22px 0;
+
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #b5b5b5;
+
+    outline: none;
+
+    font-family: inherit;
+    font-size: 15px;
+    letter-spacing: 0.08em;
+
+    color: #111;
+
+    transition: border-color 0.3s ease;
+}
+
+/* Placeholder text */
+
+form input::placeholder,
+form textarea::placeholder {
+    color: #777;
+    opacity: 1;
+}
+
+/* When clicking a field */
+
+form input:focus,
+form textarea:focus {
+    border-bottom: 1px solid #111;
+}
+
+/* Message */
+
+form textarea {
+    min-height: 160px;
+    resize: vertical;
+    line-height: 1.6;
+}
+
+/* Remove the <br> spacing */
+
+form br {
+    display: none;
+}
+
+/* Send button */
+
+form button {
+    align-self: flex-start;
+
+    margin-top: 40px;
+
+    padding: 16px 32px;
+
+    background: #111;
+    color: white;
+
+    border: 1px solid #111;
+    border-radius: 0;
+
+    font-family: inherit;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+/* Button hover */
+
+form button:hover {
+    background: transparent;
+    color: #111;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+    form {
+        max-width: 100%;
+    }
+
+    form input,
+    form textarea {
+        font-size: 14px;
+        padding: 19px 0;
+    }
+
+    form textarea {
+        min-height: 130px;
+    }
+
+    form button {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+
 
 
 
@@ -869,11 +1015,26 @@ input[type="checkbox"] {
 
     }
 
-    .footer-button {
-        margin-left: 0 ;
-      
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+    .text-section {
+        width: 100%;
+    }
+    .form-section {
+        width: 117%;
+        margin: 0 auto;
+        padding-top: 3.4rem;
+        padding-left: 2rem;
+       
     }
 
+    .send {
+        width: 10rem;
+    }
     .footer-button p {
         font-size: 1.485rem;
     }
@@ -882,8 +1043,13 @@ input[type="checkbox"] {
         font-size: 1.8rem;
     }
 
+ 
     .footer-container p  {
         font-size: 1.7rem;
+    }
+    .footer-button {
+        margin-left: 0 ;
+        font-size: 1.1rem;
     }
 
 }

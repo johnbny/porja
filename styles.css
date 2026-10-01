@@ -19,8 +19,11 @@
     letter-spacing: 0.075rem;
 }
 .logo-icon {
-    height: 5rem;
+    height: 4rem;
+    padding-bottom: 0.25rem;
 }
+
+
 .porja-logo {
 display: flex;
 align-items: center;
